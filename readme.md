@@ -6,11 +6,11 @@
 - ID | BIGINT - AUTO_INCREMENT -PRIMARY_KEY
 - brand | VARCHAR(50) NOT NULL
 - model | VARCHAR(50) NOT NULL
-- price | 
+- price | DECIMAL(10, 2) NOT NULL
 - year | YEAR NOT NULL
-- mileage |
-- fuelType |
+- mileage | INT NOT NULL
+- fuelType | VARCHAR(20) NOT NULL
 - color | VARCHAR(20)
-- transmission | 
-- available | 
+- transmission | VARCHAR(20) NOT NULL
+- available | DEFAULT (TRUE)
 - description | TEXT(500) NULL
